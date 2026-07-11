@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #fff;
-}
+
 img{
     width: 150px;
     height: auto;
@@ -41,3 +40,31 @@ img{
     color:hsl(0, 0%, 22%);
     text-decoration: none;
 }
+.hero {
+    font-family: "Inter", sans-serif;
+    
+
+}
+.hero-root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero h1{
+font-size: 64px;
+color: #fff;
+}
+.hero p{
+    font-size: 20px;
+    margin: 20px 0;
+    width: 50%;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
