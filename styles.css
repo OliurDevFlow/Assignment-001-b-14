@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.header{
+    background-color: #f1f1f1;
+    max-width: 1600px;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+    margin: 10px;
+    text-decoration: none;
+}
