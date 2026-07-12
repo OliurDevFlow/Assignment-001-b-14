@@ -3,6 +3,7 @@
     padding: 0;}
 header{
     padding:0 8px;
+    margin-top: 0;  
 }
 
 img{
@@ -45,6 +46,7 @@ img{
     color:hsl(0, 0%, 22%);
     text-decoration: none;
 }
+/*hero*/
 .hero {
     font-family: "Inter", sans-serif;
     margin: auto;
@@ -58,8 +60,9 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 100px 0;
+    padding: 80px 0;
     background-image: url(./images/banner.jpg);
+    background-blend-mode: overlay;
     background-position: center;
 }
 .hero h1{
@@ -103,12 +106,14 @@ color: #fff;
     grid-template-columns:repeat(2,1fr);
     gap:30px;
     font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
 }
 
 .speakers-id{
     border-radius:10px;
     padding:20px;
     text-align:left;
+    border-style: ridge;
 }
 
 
@@ -134,3 +139,131 @@ color: #fff;
     font-size: 20px;
 }
 /*speakers end*/    
+
+/*pricing plan*/
+hr{
+    max-width: 80%;
+    margin: 15px 0;
+}
+.premium-plan h3{
+    text-align:center;
+    margin-bottom:5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0D1B2A;
+    font-family: "Inter", sans-serif;
+} 
+.premium-plan p{
+    text-align:center;
+    margin-bottom:5px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    color: #424b55;
+}
+.premium-plan{
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.spot{
+     max-width: 1000px;
+    margin:80px auto;
+    padding:20px;
+    font-family: "Inter", sans-serif;
+}
+ 
+.premium-card{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+}
+.card{
+    border-radius:10px;
+    padding:20px;
+    text-align:left;
+    border-style: groove;
+}
+.p-offers{
+    list-style-type: none;
+    padding: 5px;
+    
+}
+.p-offers li::before{
+     content: "•";
+     color: #577ed3;
+     gap: 5px;
+}
+.p-offers li{
+    margin: 5px;
+}
+/*card-offers-ss*/
+.one{
+     background-color: #ffffff; 
+    color: #333333;              
+    padding: 20px;
+    border-radius: 18px;}
+.two{
+     background-color: #0D1B2A; 
+    color: #FFFFFF;              
+    padding: 20px;
+    border-radius: 18px;
+}
+.three{
+    background-color: #ffffff; 
+    color: #333333;              
+    padding: 20px;
+    border-radius: 18px;
+}
+.premium-card p{
+    color: #888888;
+    font-size: 12px;
+    font-family:  "Inter", sans-serif;
+}
+.premium-card h3{
+    font-family:  "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.offers-btn-one{
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #1d4ed8FF;
+    border: 1px sold #1d4ed8FF;
+    border-color: #1d4ed8FF;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+.offers-btn-two{
+    padding: 12px 30px;
+    background-color: #1d4ed8FF;
+    color: #fff;
+    border: 1px sold #1d4ed8FF;
+    border-color: #1d4ed8FF;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+
+    
+}
+.offers-btn-three{
+    padding: 12px 30px;
+    background-color: #fff;
+    color: rgb(57, 60, 70);
+    border: 1px solid;
+    border-color: rgb(110, 110, 110);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+     width: 100%;
+    margin-top: 20px;
+
+}
