@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .newsletter{
+    background:#2563eb;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+    border-radius:20px;
+    margin:80px auto;
+    width:90%;
+    max-width:1200px;
+}
+
+.newsletter h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.newsletter p{
+    font-size:18px;
+    max-width:700px;
+    margin:0 auto 35px;
+    line-height:1.6;
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.newsletter-form input{
+    width:350px;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.newsletter-form button{
+    padding:15px 35px;
+    border:none;
+    background:white;
+    color:#2563eb;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    background:#dbeafe;
+}
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Stay Updated</h2>
+
+        <p>
+            Subscribe to receive the latest conference news,
+            speaker announcements, workshop updates, and exclusive offers.
+        </p>
+
+        <form class="newsletter-form">
+            <input
+                type="email"
+                placeholder="Enter your email address"
+            >
+
+            <button type="submit">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</section>
